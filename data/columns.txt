@@ -1,0 +1,3 @@
+Label
+Topic
+Article_content

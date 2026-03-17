@@ -1,0 +1,7 @@
+كود دقة اختبار النموذج 
+loss, accuracy = model.evaluate(X_test, y_test)
+print("Test Accuracy:", accuracy)
+
+نسبة قة النموذج 
+289/289 ━━━━━━━━━━━━━━━━━━━━ 11s 38ms/step - accuracy: 0.9967 - loss: 0.0159
+Test Accuracy: 0.9967461824417114
