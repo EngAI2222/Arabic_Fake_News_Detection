@@ -8,6 +8,8 @@ This project aims to build an intelligent system capable of detecting misleading
 يقدم هذا المشروع نظامًا يعتمد على التعلم العميق ومعالجة اللغات الطبيعية (NLP) للكشف عن الأخبار المزيفة باللغة العربية.
 يقوم النظام بتحليل النصوص الإخبارية العربية وتصنيفها إلى أخبار حقيقية أو أخبار مزيفة باستخدام نموذج LSTM.
 تعد الأخبار المزيفة مشكلة كبيرة في العصر الرقمي بسبب انتشار المعلومات المضللة عبر وسائل التواصل الاجتماعي، لذلك يهدف هذا المشروع إلى بناء نظام ذكي قادر على اكتشاف الأخبار المضللة تلقائيًا.
+
+######################################################################################################################
 أهداف المشروع | Project Objectives
 English
 Detect fake Arabic news articles.
@@ -30,6 +32,7 @@ Pandas
 NumPy
 Matplotlib
 Jupyter Notebook
+########################################################################################################################
 مراحل المشروع | Project Pipeline
 English
 The system follows several steps:
@@ -51,6 +54,8 @@ Model Evaluation
 تقسيم البيانات إلى تدريب واختبار
 تدريب نموذج LSTM
 تقييم النموذج
+
+####################################################################################################################
 هيكل النموذج | Model Architecture
 English
 The Deep Learning model architecture includes:
@@ -66,6 +71,8 @@ Sigmoid Output Layer
 طبقة Dropout
 طبقة Dense
 طبقة الإخراج باستخدام Sigmoid
+
+####################################################################################################################
 نتائج النموذج | Model Performance
 English
 The trained model achieved high performance:
@@ -115,7 +122,9 @@ Arabic_Fake_News_Detection
 │   └── label_encoder.pkl
 │
 └── README.md
-التطوير المستقبلي | Future Improvements
+ا
+##############################################################################################################
+لتطوير المستقبلي | Future Improvements
 English
 Possible future improvements include:
 Using Transformer models such as AraBERT
@@ -131,6 +140,7 @@ Real-time news verification
 المؤلف | Author
 نسخ التعليمات البرمجية
 Text
+############################################################################################################
 NLP Project - Fake News Detection
 كلمات مفتاحية للمشروع | GitHub Tags
 نسخ التعليمات البرمجية
